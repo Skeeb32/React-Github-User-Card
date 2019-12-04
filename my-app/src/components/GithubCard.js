@@ -34,7 +34,6 @@ const GithubCard = ({user, image, url, location, followers_url, login, public_re
       <p className="location">Location: {location}</p>
       <p className="followers">Followers: {followers_url}</p>
       <p className="login">Login: {login}</p>
-      <p className="reposl">Repos: {public_repos}</p>
     </Card>
   )
 }
